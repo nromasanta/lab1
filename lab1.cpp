@@ -253,7 +253,11 @@ void render()
 	glClear(GL_COLOR_BUFFER_BIT);
 	//Draw box.
 	glPushMatrix();
-	glColor3ub(255, 255, 0); //now yellow
+//<<<<<<< HEAD
+//	glColor3ub(255, 255, 0); //now yellow
+//=======
+	glColor3ub(0, 255, 0); //changing to green
+//>>>>>>> green
 	glTranslatef(pos[0], pos[1], 0.0f);
 	glBegin(GL_QUADS);
 		glVertex2f(-w, -w);
